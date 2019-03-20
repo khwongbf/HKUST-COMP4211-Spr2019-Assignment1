@@ -1,0 +1,5 @@
+Coefficient of determination for FIFA training set using linear regression: 0.8383726508683356
+Coefficient of determination for FIFA test set using linear regression: 0.8422512700811537
+Mean squared error for FIFA training set using linear regression: 0.0033737004293163827
+Mean squared error for FIFA test set using linear regression: 0.0033055440089010016
+Elapsed time: 0.19419420000000187 seconds.

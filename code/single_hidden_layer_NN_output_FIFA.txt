@@ -1,0 +1,48 @@
+# Tuning hyper-parameters for FIFA ... 
+
+Best parameters set found on development set for FIFA : 
+
+{'hidden_layer_sizes': (9,), 'learning_rate_init': 0.1}
+
+Grid scores on development set for FIFA : 
+
+0.857 (+/-0.013) for {'hidden_layer_sizes': (1,), 'learning_rate_init': 0.9} 
+0.860 (+/-0.007) for {'hidden_layer_sizes': (1,), 'learning_rate_init': 0.1} 
+0.848 (+/-0.026) for {'hidden_layer_sizes': (2,), 'learning_rate_init': 0.9} 
+0.853 (+/-0.011) for {'hidden_layer_sizes': (2,), 'learning_rate_init': 0.1} 
+0.843 (+/-0.027) for {'hidden_layer_sizes': (3,), 'learning_rate_init': 0.9} 
+0.848 (+/-0.013) for {'hidden_layer_sizes': (3,), 'learning_rate_init': 0.1} 
+0.850 (+/-0.011) for {'hidden_layer_sizes': (4,), 'learning_rate_init': 0.9} 
+0.854 (+/-0.028) for {'hidden_layer_sizes': (4,), 'learning_rate_init': 0.1} 
+0.841 (+/-0.051) for {'hidden_layer_sizes': (5,), 'learning_rate_init': 0.9} 
+0.855 (+/-0.015) for {'hidden_layer_sizes': (5,), 'learning_rate_init': 0.1} 
+0.849 (+/-0.039) for {'hidden_layer_sizes': (6,), 'learning_rate_init': 0.9} 
+0.854 (+/-0.031) for {'hidden_layer_sizes': (6,), 'learning_rate_init': 0.1} 
+0.855 (+/-0.022) for {'hidden_layer_sizes': (7,), 'learning_rate_init': 0.9} 
+0.856 (+/-0.020) for {'hidden_layer_sizes': (7,), 'learning_rate_init': 0.1} 
+0.852 (+/-0.016) for {'hidden_layer_sizes': (8,), 'learning_rate_init': 0.9} 
+0.859 (+/-0.009) for {'hidden_layer_sizes': (8,), 'learning_rate_init': 0.1} 
+0.859 (+/-0.012) for {'hidden_layer_sizes': (9,), 'learning_rate_init': 0.9} 
+0.863 (+/-0.007) for {'hidden_layer_sizes': (9,), 'learning_rate_init': 0.1} 
+0.851 (+/-0.024) for {'hidden_layer_sizes': (10,), 'learning_rate_init': 0.9} 
+0.853 (+/-0.011) for {'hidden_layer_sizes': (10,), 'learning_rate_init': 0.1} 
+
+Detailed classification report for FIFA : 
+
+The model is trained on the full development set.
+The scores are computed on the full evaluation set.
+
+              precision    recall  f1-score   support
+
+         0.0       0.86      0.85      0.85      1271
+         1.0       0.86      0.87      0.86      1368
+
+   micro avg       0.86      0.86      0.86      2639
+   macro avg       0.86      0.86      0.86      2639
+weighted avg       0.86      0.86      0.86      2639
+
+
+Cross-entropy loss for FIFA training data set, Neural Networks model = 4.739284066174194
+Cross-entropy loss for FIFA test data set, Neural Networks model = 4.995886118162706
+Hence, the best loss for FIFA data set using Neural Networks model = 4.739284066174194
+Elapsed time: 1815.262895699998 seconds.

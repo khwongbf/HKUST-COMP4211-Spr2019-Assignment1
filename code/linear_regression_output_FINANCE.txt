@@ -1,0 +1,5 @@
+Coefficient of determination for FINANCE training set using linear regression: 0.9999999994806468
+Coefficient of determination for FINANCE test set using linear regression: 0.9999999994710106
+Mean squared error for FINANCE training set using linear regression: 9.557831781691407e-12
+Mean squared error for FINANCE test set using linear regression: 9.462171020029864e-12
+Elapsed time: 0.1434480000000029 seconds.

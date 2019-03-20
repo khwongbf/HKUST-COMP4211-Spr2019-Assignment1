@@ -1,0 +1,3 @@
+Accuracy for Logistic Regression with Stochastic Gradient Descent, FINANCE training set: 0.8246187363834423
+Accuracy for Logistic Regression with Stochastic Gradient Descent, FINANCE test set: 0.809368191721133
+Elapsed time: 0.43795560000000044 seconds.

@@ -1,0 +1,3 @@
+Accuracy for Logistic Regression with Stochastic Gradient Descent, FIFA training set: 0.8623303767720415
+Accuracy for Logistic Regression with Stochastic Gradient Descent, FIFA test set: 0.858312485785763
+Elapsed time: 0.9117709000000005 seconds.

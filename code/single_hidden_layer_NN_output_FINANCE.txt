@@ -1,0 +1,48 @@
+# Tuning hyper-parameters for FINANCE ... 
+
+Best parameters set found on development set for FINANCE : 
+
+{'hidden_layer_sizes': (6,), 'learning_rate_init': 0.9}
+
+Grid scores on development set for FINANCE : 
+
+0.815 (+/-0.029) for {'hidden_layer_sizes': (1,), 'learning_rate_init': 0.9} 
+0.823 (+/-0.015) for {'hidden_layer_sizes': (1,), 'learning_rate_init': 0.1} 
+0.816 (+/-0.021) for {'hidden_layer_sizes': (2,), 'learning_rate_init': 0.9} 
+0.822 (+/-0.024) for {'hidden_layer_sizes': (2,), 'learning_rate_init': 0.1} 
+0.818 (+/-0.033) for {'hidden_layer_sizes': (3,), 'learning_rate_init': 0.9} 
+0.824 (+/-0.022) for {'hidden_layer_sizes': (3,), 'learning_rate_init': 0.1} 
+0.824 (+/-0.019) for {'hidden_layer_sizes': (4,), 'learning_rate_init': 0.9} 
+0.826 (+/-0.019) for {'hidden_layer_sizes': (4,), 'learning_rate_init': 0.1} 
+0.826 (+/-0.022) for {'hidden_layer_sizes': (5,), 'learning_rate_init': 0.9} 
+0.823 (+/-0.032) for {'hidden_layer_sizes': (5,), 'learning_rate_init': 0.1} 
+0.827 (+/-0.026) for {'hidden_layer_sizes': (6,), 'learning_rate_init': 0.9} 
+0.825 (+/-0.022) for {'hidden_layer_sizes': (6,), 'learning_rate_init': 0.1} 
+0.805 (+/-0.032) for {'hidden_layer_sizes': (7,), 'learning_rate_init': 0.9} 
+0.827 (+/-0.026) for {'hidden_layer_sizes': (7,), 'learning_rate_init': 0.1} 
+0.824 (+/-0.026) for {'hidden_layer_sizes': (8,), 'learning_rate_init': 0.9} 
+0.827 (+/-0.027) for {'hidden_layer_sizes': (8,), 'learning_rate_init': 0.1} 
+0.814 (+/-0.026) for {'hidden_layer_sizes': (9,), 'learning_rate_init': 0.9} 
+0.823 (+/-0.022) for {'hidden_layer_sizes': (9,), 'learning_rate_init': 0.1} 
+0.810 (+/-0.037) for {'hidden_layer_sizes': (10,), 'learning_rate_init': 0.9} 
+0.823 (+/-0.026) for {'hidden_layer_sizes': (10,), 'learning_rate_init': 0.1} 
+
+Detailed classification report for FINANCE : 
+
+The model is trained on the full development set.
+The scores are computed on the full evaluation set.
+
+              precision    recall  f1-score   support
+
+         0.0       0.80      0.84      0.82       278
+         1.0       0.83      0.78      0.80       273
+
+   micro avg       0.81      0.81      0.81       551
+   macro avg       0.81      0.81      0.81       551
+weighted avg       0.81      0.81      0.81       551
+
+
+Cross-entropy loss for FINANCE training data set, Neural Networks model = 6.320881924365663
+Cross-entropy loss for FINANCE test data set, Neural Networks model = 7.524850599125393
+Hence, the best loss for FINANCE data set using Neural Networks model = 6.320881924365663
+Elapsed time: 1188.643253299997 seconds.

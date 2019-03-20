@@ -1,0 +1,9 @@
+Python Version : 3.7.1 (default, Dec 10 2018, 22:54:23) [MSC v.1915 64 bit (AMD64)]
+Platform : Windows-10-10.0.17763-SP0
+Machine : ('64bit', 'WindowsPE')
+CPU : Name                                     
+
+Intel(R) Core(TM) i5-4670 CPU @ 3.40GHz  
+
+
+

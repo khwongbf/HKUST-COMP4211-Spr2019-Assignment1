@@ -1,0 +1,5 @@
+Coefficient of determination for ORBITS training set using linear regression: 0.6862642136934252
+Coefficient of determination for ORBITS test set using linear regression: 0.6950418243915277
+Mean squared error for ORBITS training set using linear regression: 0.005115185164058071
+Mean squared error for ORBITS test set using linear regression: 0.004999975214856764
+Elapsed time: 0.15845470000000006 seconds.
